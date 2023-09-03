@@ -17,10 +17,10 @@ const Footer = () => {
                 </div>
                 <div className='divRedes'>
                     <ul className='ulRedes'>
-                        <li className='liRedes'>Fb</li>
-                        <li className='liRedes'></li>
-                        <li className='liRedes'>Tw</li>
-                        <li className='liRedes'>Wpp</li>
+                        <li className='liRedes'><i class="fa-brands fa-facebook"></i></li>
+                        <li className='liRedes'><i class="fa-brands fa-instagram"></i></li>
+                        <li className='liRedes'><i class="fa-brands fa-twitter"></i></li>
+                        <li className='liRedes'><i class="fa-brands fa-whatsapp"></i></li>
                     </ul>
                 </div>
             </div>

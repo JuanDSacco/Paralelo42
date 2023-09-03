@@ -76,7 +76,7 @@ $colorSecundario: rgb(236, 232, 173);
 
 .divIndexContainer{
     width: 1400px;
-    height: 1100px;
+    height: 1050px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,23 +104,29 @@ $colorSecundario: rgb(236, 232, 173);
 /* Carousel */ 
 
 #carouselExampleControls{
+    margin-top: 20px;
     width: 900px;
     height: 520px;
+    border: 2px solid $colorSecundario;
+    border-radius: 5%;
 }
 
 #divCarousel{
     width: 900px;
     height: 520px;
+    border-radius: 5%;
 }
 
 .carousel-item{
     width: 900px;
     height: 520px;
+    border-radius: 5%;
 }
 
 #imgCarousel{
     width: 900px;
     height: 520px;
+    border-radius: 5%;
 }
 
 /* Footer */
@@ -142,6 +148,8 @@ $colorSecundario: rgb(236, 232, 173);
         align-items:flex-start;
         margin: 0;
         padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .ulRedes{
@@ -172,3 +180,48 @@ $colorSecundario: rgb(236, 232, 173);
     }
 }
 
+/* Construcción */
+
+.divConstContainer{
+    width: 1400px;
+}
+
+.divH1Const{
+    text-align: center;
+
+    .h1Const{
+        padding-top: 50px;
+        background-color: $colorPrincipal;  
+        text-decoration: underline;
+        padding-bottom: 50px;
+        margin: 0;
+    }
+}
+
+.divFilaConst{
+    background-color: $colorPrincipal;
+}
+
+.divH3Const{
+    text-align: center;
+    padding-bottom: 20px;
+
+    .h3Const{
+        padding-top: 20px;
+    }
+}
+
+.divVideo{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.divPVideo{
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .pVideo{
+        padding-bottom: 40px;
+        margin: 0;
+    }
+}
