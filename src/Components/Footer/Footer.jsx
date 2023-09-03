@@ -18,7 +18,7 @@ const Footer = () => {
                 <div className='divRedes'>
                     <ul className='ulRedes'>
                         <li className='liRedes'>Fb</li>
-                        <li className='liRedes'>Ig</li>
+                        <li className='liRedes'></li>
                         <li className='liRedes'>Tw</li>
                         <li className='liRedes'>Wpp</li>
                     </ul>

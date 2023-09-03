@@ -1,3 +1,9 @@
+// Tipografía
+
+// Variables
+
+$colorPrincipal: rgb(219, 191, 164);
+$colorSecundario: rgb(236, 232, 173);
 
 *{
     margin: 0;
@@ -10,7 +16,7 @@
 .divHeaderContainer{
     width: 1400px;
     height: 250px;
-    background-color: aquamarine;
+    background-color: $colorPrincipal;
 }
 
 .divHeaderPrin{
@@ -42,12 +48,18 @@
 
 /* NavBar */ 
 
+.divNavBar{
+    width: 1400px;
+}
+
 .ulNavBar{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 80px;
-    background-color: rgb(105, 107, 216);
+    background-color: $colorSecundario;
+    padding: 0;
+    margin: 0;
 
     a{
         text-decoration: none;
@@ -59,3 +71,104 @@
         }
     }
 }
+
+/* Index */ 
+
+.divIndexContainer{
+    width: 1400px;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $colorPrincipal;
+}
+
+/* AcercaDe */
+
+.divAcercaDeContainer{
+    text-align: center;
+
+    h2{
+        text-align: left;
+        padding-top: 100px;
+        padding-left: 100px;
+        padding-bottom: 40px;
+    }
+
+    p{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+/* Carousel */ 
+
+#carouselExampleControls{
+    width: 900px;
+    height: 520px;
+}
+
+#divCarousel{
+    width: 900px;
+    height: 520px;
+}
+
+.carousel-item{
+    width: 900px;
+    height: 520px;
+}
+
+#imgCarousel{
+    width: 900px;
+    height: 520px;
+}
+
+/* Footer */
+
+.divFooterContainer{
+    text-align: center;
+    background-color: $colorSecundario;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 250px;
+    margin: 0;
+
+    .ulContacto{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ulRedes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        .liRedes{
+            padding: 10px;
+        }
+    }
+}
+
+.divCopyright{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(85, 83, 55);
+    height: 50px;
+
+    h4{
+        margin: 0;
+        color: white;
+        font-size: 16px;
+    }
+}
+
