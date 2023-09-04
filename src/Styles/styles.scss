@@ -17,34 +17,38 @@ $colorSecundario: rgb(236, 232, 173);
     width: 1400px;
     height: 250px;
     background-color: $colorPrincipal;
-}
-
-.divHeaderPrin{
-    padding-left: 130px;
-    padding-top: 55px;
     
-    h1{
-        font-size: 60px;
+    .divHeaderPrin{
+        padding-left: 130px;
+        padding-top: 55px;
+        
+        .h1Header{
+            font-size: 60px;
+            
+        
+        }
+    }
     
+    .divHeaderSec{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 30px;
+    
+        h2{
+            font-size: 27px;
+            padding-top: 10px;
+            text-decoration: underline;
+        }
+    
+        h3{
+            font-size: 24px;
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 10%;
+        }
     }
 }
 
-.divHeaderSec{
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 30px;
-
-    h2{
-        font-size: 27px;
-    }
-
-    h3{
-        font-size: 24px;
-        border: 2px solid black;
-        padding: 10px;
-        border-radius: 10%;
-    }
-}
 
 /* NavBar */ 
 
@@ -70,6 +74,12 @@ $colorSecundario: rgb(236, 232, 173);
             font-size: 22px;
         }
     }
+
+    .liNavBar:hover{
+        text-decoration: underline;
+        transition: 0.3s;
+        font-size: 25px;
+    }
 }
 
 /* Index */ 
@@ -89,6 +99,7 @@ $colorSecundario: rgb(236, 232, 173);
     text-align: center;
 
     h2{
+        text-decoration: underline;
         text-align: left;
         padding-top: 100px;
         padding-left: 100px;
@@ -141,6 +152,10 @@ $colorSecundario: rgb(236, 232, 173);
     width: 1400px;
     height: 250px;
     margin: 0;
+
+    .h2Contacto{
+        text-decoration: underline;
+    }
 
     .ulContacto{
         display: flex;

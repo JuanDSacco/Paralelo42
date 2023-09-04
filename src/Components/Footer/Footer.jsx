@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
             <div className='divFooterContainer'>
-                <h2>Contacto</h2>
+                <h2 className='h2Contacto'>Contacto</h2>
                 <div className='divContacto'>
                     <ul className='ulContacto'>
                         <li className='liContacto'>Ubicación: Fonrouge 1940</li>
