@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../Styles/styles.scss'
-import Img1 from '../../assets/ImgCarousel/img1p42.jpeg'
-import Img2 from '../../assets/ImgCarousel/img2p42.jpeg'
-import Img3 from '../../assets/ImgCarousel/img3p42.jpeg'
+import Img1 from '../../assets/ImgCarousel/img1p42.png'
+import Img2 from '../../assets/ImgCarousel/img2p42.png'
+import Img3 from '../../assets/ImgCarousel/img3p42.png'
 
 const Carousel = () => {
 
