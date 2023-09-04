@@ -6,6 +6,9 @@ import Construccion from './Routes/Construccion/Construccion'
 import Header from './Components/Header/Header'
 import NavBar from './Components/NavBar/NavBar'
 import Footer from './Components/Footer/Footer'
+import FilaServicios from './Components/FilaServicios/FilaServicios'
+
+
 
 function App() {
 
@@ -18,6 +21,7 @@ function App() {
           <Route path='/' element={<Index/>}/>
           <Route path='/servicios' element={<Servicios/>}/>
           <Route path='/construccion' element={<Construccion/>}/>
+          <Route path='/s' element={<FilaServicios/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

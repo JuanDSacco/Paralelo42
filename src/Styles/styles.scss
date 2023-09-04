@@ -225,3 +225,53 @@ $colorSecundario: rgb(236, 232, 173);
         margin: 0;
     }
 }
+
+/* Servicios */ 
+
+.divServiciosContainer{
+    width: 1400px;
+    background-color: $colorPrincipal;
+
+    .h2Servicios{
+        text-align: center;
+        text-decoration: underline;
+        padding-top: 50px;
+    }
+}
+
+.divFilaServContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 'p img';
+    width: 1400px;
+    height: 400px;
+    background-color: $colorPrincipal;
+
+    .divPFilaServicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-area: p;
+
+        .pFilaServ{
+            text-align: center;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+    }
+
+    .divImgFilaServicios{
+        display: flex;
+        align-items: center;
+        grid-area: img;
+
+        .imgFilaServicios{
+            width: 450px;
+            height: 300px;
+        }
+    }
+
+    
+}
