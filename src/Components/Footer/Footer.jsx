@@ -25,7 +25,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='divCopyright'>
-                <h4>2023 - Desarrollado por Juan Sacco @juandsacco@gmail.com</h4>
+                <h4>2023 - Desarrollado por Strix IT idstrix@gmail.com</h4>
             </div>
         </>
     )
