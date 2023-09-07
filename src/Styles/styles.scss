@@ -14,7 +14,7 @@ $colorSecundario: rgb(236, 232, 173);
 // Header
 
 .divHeaderContainer{
-    width: 1400px;
+    width: auto;
     height: 250px;
     background-color: $colorPrincipal;
     
@@ -53,7 +53,7 @@ $colorSecundario: rgb(236, 232, 173);
 /* NavBar */ 
 
 .divNavBar{
-    width: 1400px;
+    width: auto;
 }
 
 .ulNavBar{
@@ -85,7 +85,7 @@ $colorSecundario: rgb(236, 232, 173);
 /* Index */ 
 
 .divIndexContainer{
-    width: 1400px;
+    width: auto;
     height: 1050px;
     display: flex;
     flex-direction: column;
@@ -149,7 +149,7 @@ $colorSecundario: rgb(236, 232, 173);
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1400px;
+    width: auto;
     height: 250px;
     margin: 0;
 
@@ -180,7 +180,7 @@ $colorSecundario: rgb(236, 232, 173);
 }
 
 .divCopyright{
-    width: 1400px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,7 +198,7 @@ $colorSecundario: rgb(236, 232, 173);
 /* Construcción */
 
 .divConstContainer{
-    width: 1400px;
+    width: auto;
 }
 
 .divH1Const{
@@ -244,7 +244,7 @@ $colorSecundario: rgb(236, 232, 173);
 /* Servicios */ 
 
 .divServiciosContainer{
-    width: 1400px;
+    width: auto;
     background-color: $colorPrincipal;
 
     .h2Servicios{
@@ -259,7 +259,7 @@ $colorSecundario: rgb(236, 232, 173);
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(1,1fr);
     grid-template-areas: 'p img';
-    width: 1400px;
+    width: auto;
     height: 400px;
     background-color: $colorPrincipal;
 
