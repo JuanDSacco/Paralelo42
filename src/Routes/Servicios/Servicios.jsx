@@ -11,9 +11,11 @@ const Servicios = () => {
     return (
         <div className='divServiciosContainer'>
             <h1 className='h2Servicios'>Servicios</h1>
-            <FilaServicios servicioEj={'1'} imgServicios={ImagenServicio1}/>
-            <FilaServicios servicioEj={'2'} imgServicios={ImagenServicio2}/>
-            <FilaServicios servicioEj={'3'} imgServicios={ImagenServicio3}/>
+            <div className='divFilaServFlex'>  
+                <FilaServicios servicioEj={'1'} imgServicios={ImagenServicio1}/>
+                <FilaServicios servicioEj={'2'} imgServicios={ImagenServicio2}/>
+                <FilaServicios servicioEj={'3'} imgServicios={ImagenServicio3}/>
+            </div>
         </div>
     )
 }

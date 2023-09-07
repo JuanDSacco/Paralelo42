@@ -252,6 +252,7 @@ $colorSecundario: rgb(236, 232, 173);
         text-decoration: underline;
         padding-top: 50px;
     }
+
 }
 
 .divFilaServContainer{
@@ -280,6 +281,7 @@ $colorSecundario: rgb(236, 232, 173);
     .divImgFilaServicios{
         display: flex;
         align-items: center;
+        justify-content: center;
         grid-area: img;
 
         .imgFilaServicios{
@@ -287,6 +289,4 @@ $colorSecundario: rgb(236, 232, 173);
             height: 300px;
         }
     }
-
-    
 }
